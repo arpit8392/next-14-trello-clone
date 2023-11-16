@@ -40,6 +40,20 @@ const MobileSidebar = () => {
 					<Sidebar storageKey='t-sidebar-mobile-state' />
 				</SheetContent>
 			</Sheet>
+			{/* <Sheet>
+				<SheetTrigger asChild>
+					<Button
+						onClick={onOpen}
+						className='block md:hidden mr-2'
+						variant='ghost'
+						size='sm'>
+						<Menu className='h-4 w-4' />
+					</Button>
+				</SheetTrigger>
+				<SheetContent side='left' className='p-2 pt-10'>
+					<Sidebar storageKey='t-sidebar-mobile-state' />
+				</SheetContent>
+			</Sheet> */}
 		</>
 	)
 }
